@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = tabController
         window?.makeKeyAndVisible()
 
-        printContent("Stil a useless change.")
+        print("Stil a useless change.")
         
         return true
     }
